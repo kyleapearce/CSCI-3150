@@ -14,6 +14,38 @@ div#formcol1 {
 	width: 100%;
 }
 
+label {
+	margin-right: .3em;
+	width: 6em;
+	display: inline-block;
+	text-align: right;
+}
+
+#formcol1 li {
+	list-style:none;
+}
+
+#formcol1 input.reqfield {
+	background: #FF9
+}
+
+.align-center {
+	display: block;
+	text-align: center;
+}
+
+.red {
+	color: #FF0000;
+}
+
+div#multchoice label {
+	text-align: left;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, 
+input:active + label, label[for]:focus, label[for]:active {
+color: #FFF !important;
+background-color: #a6bb2f !important;}
 
 
 /* end of form css */
